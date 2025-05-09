@@ -1,0 +1,43 @@
+Functions
+1.	find_all_eyetrackers()
+	- Finds and returns all connected eye trackers.
+2.	find_eyetracker_by_serial(serial_number)
+	- Finds an eye tracker by its serial number.
+3.	find_eyetracker_by_address(address)
+	- Finds an eye tracker by its network address.
+4.	eyetracker.subscribe_to(event, callback, as_dictionary=False)
+ 	- Subscribes to an event and sets up a callback to handle data.
+5.	eyetracker.unsubscribe_from(event, callback)
+	- Unsubscribes from a previously subscribed event.
+6.	eyetracker.get_info()
+	- Returns information about the eye tracker (e.g., model, serial number, firmware version).
+7.	eyetracker.get_device_name()
+	- Returns the name of the eye tracker.
+8.	eyetracker.get_model()
+	- Retrieves the model of the eye tracker (e.g., Tobii 4C, Pro X3).
+9.	eyetracker.get_firmware_version()
+	- Returns the firmware version of the eye tracker.
+10.	eyetracker.get_calibration_status()
+	- Retrieves the calibration status of the eye tracker.
+11.	eyetracker.get_gaze_data()
+	- Retrieves the latest gaze data.
+12.	eyetracker.start_calibration()
+	- Starts the calibration process for the eye tracker.
+13.	eyetracker.stop_calibration()
+	- Stops the calibration process.
+14.	eyetracker.is_calibrated()
+	- Checks if the eye tracker is calibrated.
+15.	eyetracker.set_calibration_data(data)
+	- Sets the calibration data.
+16.	eyetracker.set_gaze_data(gaze_data)
+	- Sends gaze data to the eye tracker.
+17.	eyetracker.get_eye_tracking_data()
+	- Retrieves eye-tracking data such as gaze point and pupil size.
+________________________________________
+Event Constants
+•	EYETRACKER_GAZE_DATA: Event for gaze data.
+•	EYETRACKER_CALIBRATION_DATA: Event for calibration data.
+•	EYETRACKER_RAW_GAZE_DATA: Event for raw gaze data.
+•	EYETRACKER_PUPIL_DATA: Event for pupil data.
+•	EYETRACKER_DEVICE_TIME: Event for device time.
+
