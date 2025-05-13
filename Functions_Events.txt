@@ -41,3 +41,9 @@ Event Constants
 •	EYETRACKER_PUPIL_DATA: Event for pupil data.
 •	EYETRACKER_DEVICE_TIME: Event for device time.
 
+
+________________________________________
+Functions Psychopy
+
+- Core 
+1. https://psychopy.org/api/core.html\
