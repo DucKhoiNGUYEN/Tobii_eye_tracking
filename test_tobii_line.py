@@ -90,7 +90,7 @@ merged_df = pd.merge_asof(
 )
 
 # Save merged file
-merged_df.to_csv(f"merged_data.csv", index=False)
+merged_df.to_csv(f"merged_data_line.csv", index=False)
 
 
 print("Experiment finished. Data saved.")

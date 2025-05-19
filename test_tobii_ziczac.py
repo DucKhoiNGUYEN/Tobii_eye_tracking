@@ -18,7 +18,7 @@ start_y = 0
 amplitude = 200
 frequency = 0.5
 
-# Prepare data recording
+# Stock data
 gaze_data_list = []
 stim_data_list = []
 
@@ -95,7 +95,7 @@ merged_df = pd.merge_asof(
 )
 
 # Save merged file
-merged_df.to_csv(f"merged_data.csv", index=False)
+merged_df.to_csv(f"merged_data_ziczac.csv", index=False)
 
 
 print("Experiment finished. Data saved.")
